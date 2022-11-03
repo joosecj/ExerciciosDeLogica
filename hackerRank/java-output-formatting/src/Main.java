@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -16,21 +14,6 @@ public class Main {
             System.out.printf("%-14s %03d \n", ln[0], Integer.parseInt(ln[1]));
         }
         System.out.println(borders);
-
-//        String stringOne = scanner.nextLine();
-//        int intOne = scanner.nextInt();
-//
-//        String stringTwo = scanner.next();
-//        int intTwo = scanner.nextInt();
-//
-//        String stringThree = scanner.next();
-//        int intThree = scanner.nextInt();
-//
-//        System.out.println("================================");
-//        System.out.printf("%-14s %03d \n",stringOne,intOne);
-//        System.out.printf("%-14s %03d \n",stringTwo,intTwo);
-//        System.out.printf("%-14s %03d \n",stringThree,intThree);
-//        System.out.println("================================");
         scanner.close();
     }
 }
